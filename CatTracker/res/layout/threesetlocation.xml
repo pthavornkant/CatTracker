@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/solidbackground"
+    tools:context=".threeSetBus" >
+
+    <TextView
+        android:id="@+id/textView002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="At Location"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView006"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView004"
+        android:layout_below="@+id/textView004"
+        android:layout_marginTop="20dp"
+        android:text="Bus1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/TextView0005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView003"
+        android:text="____________________________________________________________________"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView007"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView0001"
+        android:layout_alignRight="@+id/textView003"
+        android:text="Time1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/TextView0003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView007"
+        android:layout_below="@+id/TextView0001"
+        android:text="Time2"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView0003"
+        android:text="____________________________________________________________________"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/TextView0006"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/textView005"
+        android:text="Bus3"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/TextView0004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView0006"
+        android:layout_alignBottom="@+id/TextView0006"
+        android:layout_alignLeft="@+id/TextView0003"
+        android:text="Time3"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/TextView0001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView006"
+        android:text="____________________________________________________________________"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView005"
+        android:layout_alignLeft="@+id/textView006"
+        android:text="Bus2"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView002"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="16dp"
+        android:text="Bus"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView006"
+        android:layout_alignRight="@+id/button1"
+        android:text="Time"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView005"
+        android:layout_below="@+id/TextView0004"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/nextbus" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/TextView0006"
+        android:background="@drawable/mainmenu" />
+
+</RelativeLayout>

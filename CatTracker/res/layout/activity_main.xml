@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_below="@+id/Button02"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button3"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal|center"
+        android:minHeight="50dp"
+        android:minWidth="225dp" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button2"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal|center"
+        android:minHeight="50dp"
+        android:minWidth="225dp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/button1"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal|center"
+        android:minHeight="50dp"
+        android:minWidth="225dp" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_below="@+id/Button03"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button4"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal|center"
+        android:minHeight="50dp"
+        android:minWidth="225dp" />
+
+</RelativeLayout>

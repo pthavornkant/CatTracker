@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cattracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+           
+            android:name=".findMyBus"
+            android:label="@string/app_name" >
+             
+            <intent-filter>
+                <action android:name="android.intent.action.findmybus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".threeSetBus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.threesetbus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".fullSchedule"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.fullschedule" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".threeSetLocation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.threesetlocation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".searchByLocation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.searchbylocation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".setDestination"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.setdestination" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+
+</manifest>
